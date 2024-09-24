@@ -1,0 +1,1 @@
+This is a project assigned by The Odin Project, in which I have to make an entire web page!
