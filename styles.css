@@ -1,13 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.header {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
 .first {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 32px;
+}
+
+.first-body {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
 }
 
 .third {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .header-logo {
@@ -32,27 +85,58 @@
     color: #1F2937;
 }
 
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 800px;
+}
+
 .quote {
     color: #1F2937;
     font-family: "Roboto";
     font-weight: lighter;
+    width: auto;
     font-size: 36px;
 }
 
 .author {
     color: #1F2937;
     font-weight: 900;
+    font-size: 20px;
 }
 
 .call-to-action {
     background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 64px;
+    border-radius: 8px;
+    height: 100px;
+    width: 800px;
+    flex: 0 1 auto;
+}
+
+.holder {
+    display: flex;
+    width: 800px;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
 }
 
 .square {
     height: 150px;
     width: 150px;
     border-radius: 16px;
-    border: 2px solid #3882F6;
+    border: 4px solid #3882F6;
     background-color: white;
 }
 
@@ -64,6 +148,11 @@
     border: 2px solid white;
 }
 
+.main-button {
+    flex-grow: 0;
+    width: 120px;
+}
+
 button {
     background-color: #3882F6;
     font-family: "Roboto";
@@ -73,6 +162,11 @@ button {
     border: none;
     color: white;
     padding: 8px 32px;
+    flex: 0 1 auto;
+}
+
+img {
+    flex: 0 0 auto;
 }
 
 p {
@@ -87,6 +181,8 @@ h1 {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
